@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.view.ShowGirlController">
+   <children>
+      <Button layoutX="113.0" layoutY="291.0" mnemonicParsing="false" onAction="#show" prefHeight="30.0" prefWidth="80.0" text="SHOW" textFill="#c60101">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="208.0" layoutY="291.0" mnemonicParsing="false" onAction="#home" prefHeight="30.0" prefWidth="80.0" text="HOME" textFill="#c60101">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.AddGirlController">
+   <children>
+      <Label layoutX="86.0" layoutY="127.0" prefHeight="20.0" prefWidth="60.0" text="Code" textFill="#e14908">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCode" layoutX="173.0" layoutY="127.0" />
+      <TextField fx:id="txtName" layoutX="173.0" layoutY="164.0" />
+      <Label layoutX="86.0" layoutY="164.0" prefHeight="20.0" prefWidth="60.0" text="Name" textFill="#e14908">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAge" layoutX="173.0" layoutY="202.0" />
+      <Label layoutX="86.0" layoutY="202.0" prefHeight="20.0" prefWidth="60.0" text="Age" textFill="#e14908">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddress" layoutX="173.0" layoutY="244.0" />
+      <Label layoutX="86.0" layoutY="244.0" prefHeight="20.0" prefWidth="60.0" text="Address" textFill="#e14908">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="120.0" layoutY="334.0" mnemonicParsing="false" onAction="#add" prefWidth="70.0" text="ADD" textFill="#0f04e1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="214.0" layoutY="334.0" mnemonicParsing="false" onAction="#home" prefWidth="70.0" text="HOME" textFill="#0f04e1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
